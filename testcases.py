@@ -10,7 +10,8 @@ def checkconfig(x):
 
 def test_add():
     assert(calculation.add(5,7), 12)
-
+def test_add1():
+    assert(calculation.add(5,71), 76)
 def test_mul():
     assert(calculation.mul(5,7), 35)
 def test_sub():

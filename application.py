@@ -6,6 +6,7 @@ def sample():
 	b = 20
 	c = a + b
 	d = 0
+	e = 1
 	if c > 10:
 		if c > 100:
 			if c != 100:
